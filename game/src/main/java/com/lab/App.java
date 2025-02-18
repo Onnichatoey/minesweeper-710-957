@@ -24,9 +24,11 @@ public class App {
     public static void main(String[] args) {
         // Task 3: Implement a menu to select the mine field template
         // Design the menu by yourself.
+
+        //จัดการคะแนนโดยการเพิ่มหรือหักคะแนนเมื่อผู้เล่นคลิกที่เซลล์ที่ไม่ใช่ระเบิดหรือระเบิด
                 
-        Minesweeper game = initMineField();
-        // Minesweeper game = initMineFieldFromFile("minefield/minefield01.txt");
+        //Minesweeper game = initMineField();
+         Minesweeper game = initMineFieldFromFile("minefield/minefield01.txt");
         game.displayField();
     }    
 }
